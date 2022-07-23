@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<body>
+    <div id="main">
+        <h1><b>
+                <center>Rock-Paper-Scissors</center>
+            </b></h1>
+    </div>
+    <div id="score">
+        <p><b>Score :</b></p>
+        <p id="sc-box"></p>
+        <p><b>Attempt :</b></p>
+        <p id="sc-box1"></p>
+        <p id="sc-box2"></p>
+    </div>
+    <div id="stage">
+        <div id="computer">
+            <p><b>computer : </b></p>
+            <div id="rock1"><span class="material-icons">circle</span></div>
+            <div id="paper1"><span class="material-icons">note</span></div>
+            <div id="scissor1"><span class="material-icons">content_cut</span></div>
+        </div>
+        <div id="person">
+            <p><b>You : </b></p>
+            <div id="rock" onclick="rps('1')"><span class="material-icons">circle</span></div>
+            <div id="paper" onclick="rps('2')"><span class="material-icons">note</span></div>
+            <div id="scissor" onclick="rps('3')"><span class="material-icons">content_cut</span></div>
+        </div>
+</body>
+<script src="script.js"></script>
+
+</html>

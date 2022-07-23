@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
+
+body {
+    background-color: gray;
+}
+
+#main {
+    border: solid black;
+    padding: 2%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#score {
+    border: solid rgb(0, 0, 0);
+    padding: 2%;
+    margin-top: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#sc-box {
+    border: solid black;
+    background-color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    padding: 1%;
+    margin-right: 90%;
+}
+
+#sc-box1 {
+    border: solid black;
+    background-color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    padding: 1%;
+    margin-right: 90%;
+}
+
+#sc-box2 {
+    border: solid black;
+    background-color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    padding: 1%;
+    margin-left: 50%;
+
+}
+
+#stage {
+    border: solid black;
+    padding: 2%;
+    margin-top: 1px;
+}
+
+#computer {
+    border: solid black;
+    padding: 1%;
+    padding-left: 50%;
+}
+
+#person {
+    border: solid black;
+    padding: 1%;
+    margin-top: 1px;
+    padding-left: 50%;
+
+
+}
+
+#computer {
+    font-family: 'Roboto', sans-serif;
+}
+
+#person {
+    font-family: 'Roboto', sans-serif;
+}
+
+#rock {
+    padding: 1%;
+    cursor: pointer;
+}
+
+#paper {
+    padding: 1%;
+    cursor: pointer;
+}
+
+#scissor {
+    padding: 1%;
+    cursor: pointer;
+}
