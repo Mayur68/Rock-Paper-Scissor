@@ -12,7 +12,7 @@ body {
 
 #score {
     border: solid rgb(0, 0, 0);
-    padding: 2%;
+    padding: 1%;
     margin-top: 1px;
     font-family: 'Roboto', sans-serif;
 }
@@ -38,13 +38,13 @@ body {
     background-color: aliceblue;
     font-family: 'Roboto', sans-serif;
     padding: 1%;
-    margin-left: 50%;
+    margin-right: 90%;
 
 }
 
 #stage {
     border: solid black;
-    padding: 2%;
+    padding: 1%;
     margin-top: 1px;
 }
 
@@ -74,14 +74,35 @@ body {
 #rock {
     padding: 1%;
     cursor: pointer;
+    margin-right: 315px;
 }
 
 #paper {
     padding: 1%;
     cursor: pointer;
+    margin-right: 315px;
 }
 
 #scissor {
     padding: 1%;
     cursor: pointer;
+    margin-right: 315px;
+}
+
+#rock1 {
+    padding: 1%;
+    cursor: pointer;
+    margin-right: 315px;
+}
+
+#paper1 {
+    padding: 1%;
+    cursor: pointer;
+    margin-right: 315px;
+}
+
+#scissor1 {
+    padding: 1%;
+    cursor: pointer;
+    margin-right: 315px;
 }
