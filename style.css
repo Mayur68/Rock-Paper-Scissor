@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
 
 body {
-    background-color: gray;
+    background: linear-gradient(to right, #6b81e2, #cd5be4);
 }
 
 #main {
     border: solid black;
-    padding: 2%;
+    padding: 4%;
     font-family: 'Roboto', sans-serif;
 }
 
 #score {
+    display: flex;
     border: solid rgb(0, 0, 0);
     padding: 1%;
     margin-top: 1px;
@@ -21,88 +22,106 @@ body {
     border: solid black;
     background-color: aliceblue;
     font-family: 'Roboto', sans-serif;
-    padding: 1%;
-    margin-right: 90%;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
 }
 
 #sc-box1 {
     border: solid black;
     background-color: aliceblue;
     font-family: 'Roboto', sans-serif;
-    padding: 1%;
-    margin-right: 90%;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
 }
 
 #sc-box2 {
     border: solid black;
     background-color: aliceblue;
     font-family: 'Roboto', sans-serif;
-    padding: 1%;
-    margin-right: 90%;
-
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
 }
 
 #stage {
     border: solid black;
-    padding: 1%;
+    padding: 4%;
     margin-top: 1px;
 }
 
 #computer {
+    display: flex;
     border: solid black;
-    padding: 1%;
-    padding-left: 50%;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(255, 209, 140);
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 25px;
 }
 
 #person {
     border: solid black;
-    padding: 1%;
-    margin-top: 1px;
-    padding-left: 50%;
-
-
-}
-
-#computer {
     font-family: 'Roboto', sans-serif;
-}
-
-#person {
-    font-family: 'Roboto', sans-serif;
+    background-color: rgb(233, 255, 162);
+    display: flex;
+    margin-top: 4px;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 25px;
 }
 
 #rock {
     padding: 1%;
     cursor: pointer;
-    margin-right: 315px;
+    margin-right: 678px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
 }
 
 #paper {
     padding: 1%;
     cursor: pointer;
-    margin-right: 315px;
+    margin-right: 678px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
 }
 
 #scissor {
     padding: 1%;
     cursor: pointer;
-    margin-right: 315px;
+    margin-right: 678px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
 }
 
 #rock1 {
     padding: 1%;
     cursor: pointer;
-    margin-right: 315px;
+    margin-right: 678px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
 }
 
 #paper1 {
     padding: 1%;
     cursor: pointer;
-    margin-right: 315px;
+    margin-right: 678px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
 }
 
 #scissor1 {
     padding: 1%;
     cursor: pointer;
-    margin-right: 315px;
+    margin-right: 678px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
 }
